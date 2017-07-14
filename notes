@@ -5,3 +5,9 @@ reducer
 container (smart components)
 	- React component that has a direction connection to the state through redux
 	- in general, we want the most parent component that cares about a particulat piece of state to be a container/is connected to redux.
+action creators
+	- a function that returns an action
+	- that action is then sent through all the applications reducers
+	- reducers can choose to return a new piece of state depending on what the action is
+		- once the action has run through all the reducers, the new pieces of state are then pumped back into the app, causing relevant components to re-render.
+		- reducers do not have to react to every action, they can return their original state
