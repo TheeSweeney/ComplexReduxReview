@@ -1,3 +1,7 @@
 reducer
 	- function that returns a piece of the application state
 	- our app can have many pieces of state ergo it can have many reducers
+	- step one is making the reducer, step 2 is connecting it to the application
+container (smart components)
+	- React component that has a direction connection to the state through redux
+	- in general, we want the most parent component that cares about a particulat piece of state to be a container/is connected to redux.
