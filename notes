@@ -1,0 +1,3 @@
+reducer
+	- function that returns a piece of the application state
+	- our app can have many pieces of state ergo it can have many reducers
